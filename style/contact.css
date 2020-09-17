@@ -1,19 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://use.typekit.net/twz4sdp.css");
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 *{
-	margin: 0;
 	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 .button-primary{
-  background-color:#92c14d;
-  border: 2px solid #92c14d;
-  border-radius: 5px;  
-  color: #fff;
+	background-color:#92c14d;
+	border: 2px solid #92c14d;
+	border-radius: 5px;	 
+	color: #fff;
 }
 .button-primary:hover{
-  text-decoration: none;
-  background-color: #fff;
-  color: #92c14d;
-  border: 2px solid #92c14d;
-  transition: 1s;
+	text-decoration: none;
+	background-color: #fff;
+	color: #92c14d;
+	border: 2px solid #92c14d;
+	transition: 1s;
+}
+.button-primary:hover a{
+	color: #92c14d;
+	
+}
+.back-primary{
+	background-color: #92c14d;
+	color: #fff;
 }
  .navbar {
   min-height: 80px;
@@ -59,80 +71,47 @@
 	border: none;
 	outline: none;
 }
-.modal-login {
-		width: 350px;
-	}
-	.modal-login .modal-content {
-		padding: 20px;
-		border-radius: 1px;
-		border: none;
-	}
-	.modal-login .modal-header {
-		border-bottom: none;
-        position: relative;
-		justify-content: center;
-	}
-	.modal-login h4 {
-		text-align: center;
-		font-size: 26px;
-	}
-    .modal-login .form-group {
-        margin-bottom: 20px;
-    }
-	.modal-login .form-control, .modal-login .btn {
-		min-height: 40px;
-		border-radius: 30px; 
-        font-size: 15px;
-        transition: all 0.5s;
-	}
-    .modal-login .form-control {
-        font-size: 13px;
-    }
-    .modal-login .form-control:focus {
-        border-color: #92c14d;
-    }
-	.modal-login .hint-text {
-		text-align: center;
-		padding-top: 10px;
-	}
-	.modal-login .close {
-        position: absolute;
-		top: -5px;
-		right: -5px;
-	}
-	.modal-login .btn {
-		background: #92c14d;
-		border: none;
-		line-height: normal;
-	}
-	.modal-login .btn:hover, .modal-login .btn:focus {
-		background:#92c14d;
-		color: #fff;
-	}
-	.modal-login .hint-text a {
-		color: #999;
-	}
-  textarea:focus,
-  input[type="text"]:focus,
-  input[type="password"]:focus,
-  input[type="datetime"]:focus,
-  input[type="datetime-local"]:focus,
-  input[type="date"]:focus,
-  input[type="month"]:focus,
-  input[type="time"]:focus,
-  input[type="week"]:focus,
-  input[type="number"]:focus,
-  input[type="email"]:focus,
-  input[type="url"]:focus,
-  input[type="search"]:focus,
-  input[type="tel"]:focus,
-  input[type="color"]:focus,
-  .uneditable-input:focus {   
-    border-color: #92c14d;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
-    outline: 0 none;
-  }
-	.site-footer
+.card{
+	border: 1px solid #92c14d;
+}
+
+.icons{
+	margin: 80px 0;
+	padding-left: 100px;
+}
+.contact{
+	margin-top:  130px ;
+	margin-bottom: 50px;
+}
+.details{
+	margin-bottom: 30px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #92c14d;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+
+
+
+
+.site-footer
 {
   background-color:#26272b;
   padding:45px 0 20px;
@@ -215,12 +194,6 @@
 }
 @media (max-width:767px)
 {
-	social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
   .site-footer
   {
     padding-bottom:0;
@@ -284,4 +257,42 @@
 {
   background-color:#FF0000;
 }
+@media (max-width: 992px) {
 
+  }
+@media (max-width: 768px) {
+	.promo-title{
+		font-size: 40px;
+	}
+	.promo-sub{
+		font-size: 20px;
+	}
+	#contents h4{
+		font-size: 18px;
+	}
+	.col-md-4{
+		padding: 15px !important;
+	}
+	.icons{
+	padding-left: 0;
+}
+}
+social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+  #notice img{
+  	width: 350px;
+  }
+}
+@media (max-width: 576px) {
+	 #notice img{
+  	width: 300px;
+  }
+
+  #webinar a{
+  	font-size: 15px;
+  }
+}
