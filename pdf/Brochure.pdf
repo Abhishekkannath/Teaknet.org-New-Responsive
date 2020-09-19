@@ -1,0 +1,7 @@
+/*<br />
+<b>Warning</b>:  readfile(Brochure.pdf): failed to open stream: No such file or directory in <b>/var/www/html/web/brochure.php</b> on line <b>4</b><br />
+*/
+
+First you have to check
+
+
