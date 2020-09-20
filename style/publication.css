@@ -1,0 +1,30 @@
+.books{
+    height:8em; 
+    width: 5em; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.bulletin-section{
+    background: #92c14d;
+    border-radius: 20px;
+}
+.h3{
+    font-size: 22px;
+    color: white;
+}  
+}
+.sidebar{
+    height: 11em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.reports a:hover{
+	color: #0e6b0e;
+}
+.button-primary a{
+    color: #fff;
+}
+
+
