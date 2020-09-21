@@ -111,6 +111,16 @@
 	.modal-login .hint-text a {
 		color: #999;
 	}
+
+  .newsletter{
+    max-width: 100px;
+  }
+  #newsletter a{
+    color: #92c14d;
+  }
+  .market-links a{
+    color: #92c14d;
+  }
   textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
