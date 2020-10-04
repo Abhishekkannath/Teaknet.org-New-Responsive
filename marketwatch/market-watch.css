@@ -305,10 +305,10 @@ input[type="color"]:focus,
   background-color: #92c14d; color: ivory
 }
 .reports a{
-  color: #92c14d;
+  color: #303030;
   font-weight:600;
 }
 .reports a:hover{
-  color: #000000;
+  color: #93c14de1;
   font-weight:600;
 }
