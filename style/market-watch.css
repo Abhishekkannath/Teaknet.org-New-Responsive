@@ -8,6 +8,10 @@
   border-radius: 5px;  
   color: #fff;
 }
+.navbar-brand img{
+  width: 150px;
+
+}
 .button-primary:hover{
   text-decoration: none;
   background-color: #fff;
