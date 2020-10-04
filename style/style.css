@@ -6,6 +6,7 @@
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 }
+
 .button-primary{
   background-color:#92c14d;
   border: 2px solid #92c14d;
@@ -52,6 +53,10 @@
 
 .navbar-nav .nav-item .nav-link {
     color: #303030;
+
+}
+.navbar-brand img{
+  width: 150px;
 
 }
 .navbar-nav .nav-item.active .nav-link,
@@ -225,7 +230,7 @@ color: #fff;
 {
   display:block;
 }
-.footer-links a;
+.footer-links a
 {
   color:#737373;
 }

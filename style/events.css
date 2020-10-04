@@ -25,6 +25,10 @@ body{
  .navbar {
   min-height: 80px;
 }
+.navbar-brand img{
+  width: 150px;
+
+}
 
 .navbar-brand {
   padding: 0 15px;
@@ -107,10 +111,7 @@ h2{
   font-weight: 600;
   font-size: 18px;
 }
-.full{
- 
-  text-align: center;
-}
+
 .site-footer
 {
   background-color:#26272b;
@@ -154,7 +155,7 @@ h2{
 {
   display:block;
 }
-.footer-links a;
+.footer-links a
 {
   color:#737373;
 }

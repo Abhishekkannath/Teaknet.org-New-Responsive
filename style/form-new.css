@@ -25,6 +25,10 @@ body{
  .navbar {
   min-height: 80px;
 }
+.navbar-brand img{
+  width: 150px;
+
+}
 
 .navbar-brand {
   padding: 0 15px;
@@ -160,7 +164,7 @@ input[type="color"]:focus,
 {
   display:block;
 }
-.footer-links a;
+.footer-links a
 {
   color:#737373;
 }
@@ -282,7 +286,7 @@ input[type="color"]:focus,
   .icons{
   padding-left: 0;
 }
-}
+
 social-icons li.title
   {
     display:block;

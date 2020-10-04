@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://use.typekit.net/twz4sdp.css");
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
+}
+body{
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
 }
 .button-primary{
   background-color:#92c14d;
@@ -18,7 +26,15 @@
  .navbar {
   min-height: 80px;
 }
+.navbar-brand img{
+  width: 150px;
 
+}
+h2{
+  font-weight: 800;
+  font-size: 2em;
+
+}
 .navbar-brand {
   padding: 0 15px;
   height: 80px;
@@ -75,13 +91,7 @@
 	.modal-login h4 {
 		text-align: center;
 		font-size: 26px;
-  }
-  .reports h5{
-    font-size: 1.5em;
-    font-weight: 400;
-    color: #92c14d;
-    text-decoration: underline;
-  }
+	}
     .modal-login .form-group {
         margin-bottom: 20px;
     }
@@ -192,7 +202,7 @@ input[type="color"]:focus,
 {
   display:block;
 }
-.footer-links a;
+.footer-links a
 {
   color:#737373;
 }
@@ -301,14 +311,4 @@ input[type="color"]:focus,
 {
   background-color:#FF0000;
 }
-.head{
-  background-color: #92c14d; color: ivory
-}
-.reports a{
-  color: #92c14d;
-  font-weight:600;
-}
-.reports a:hover{
-  color: #000000;
-  font-weight:600;
-}
+
